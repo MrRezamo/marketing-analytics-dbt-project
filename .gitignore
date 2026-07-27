@@ -1,0 +1,29 @@
+# Virtual Environment
+DBT/
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Kaggle credentials
+kaggle.json
+
+# Raw data
+sql_raw_load/data/*.csv
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
